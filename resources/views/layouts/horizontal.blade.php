@@ -22,7 +22,7 @@
                 </a>
             </div>
 
-            <button type="button" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn">
+            <button type="button" class="btn btn-sm px-3 font-size-16 d-lg-none header-item collapsed" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content" aria-expanded="false">
                 <i class="fa fa-fw fa-bars"></i>
             </button>
 
