@@ -480,7 +480,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-dashboard" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="icon nav-icon" data-feather="monitor"></i>
                                 <span data-key="t-dashboards">@lang('translation.Dashboards')</span>
                                 <div class="arrow-down"></div>
@@ -495,7 +495,7 @@
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-uielement" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="icon nav-icon" data-feather="package"></i>
                                 <span data-key="t-elements">@lang('translation.Elements')</span>
                                 <div class="arrow-down"></div>
@@ -603,7 +603,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
+                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="icon nav-icon" data-feather="grid"></i>
                                 <span data-key="t-apps">@lang('translation.Apps')</span>
                                 <div class="arrow-down"></div>
@@ -620,7 +620,7 @@
                                     data-key="t-filemanager">@lang('translation.File_Manager')</a>
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-email"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-email">@lang('translation.Email')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -634,7 +634,7 @@
 
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-contact"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-contacts">@lang('translation.Contacts')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -654,7 +654,7 @@
 
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-projects"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-projects">@lang('translation.Projects')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -671,10 +671,9 @@
                                 </div>
                             </div>
                         </li>
-
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-components"
-                                role="button">
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="icon nav-icon" data-feather="layers"></i>
                                 <span data-key="t-components">@lang('translation.Components')</span>
                                 <div class="arrow-down"></div>
@@ -684,7 +683,7 @@
                                     data-key="t-widgets">@lang('translation.Widgets')</a>
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-form"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-forms">@lang('translation.Forms')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -707,7 +706,7 @@
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-table"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-tables">@lang('translation.Tables')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -720,7 +719,7 @@
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-charts"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-apex-charts">@lang('translation.Apex_Charts')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -761,7 +760,7 @@
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-icons"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-icons">@lang('translation.Icons')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -780,7 +779,7 @@
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-map"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-maps">@lang('translation.Maps')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -797,7 +796,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button">
+                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="icon nav-icon" data-feather="file"></i>
                                 <span data-key="t-extra-pages">@lang('translation.Extra_pages')</span>
                                 <div class="arrow-down"></div>
@@ -805,7 +804,7 @@
                             <div class="dropdown-menu" aria-labelledby="topnav-more">
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-pricing"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-pricing">@lang('translation.Pricing')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -819,7 +818,7 @@
 
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-invoices"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-invoices">@lang('translation.Invoices')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -832,7 +831,7 @@
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-timeline"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-timeline">@lang('translation.Timeline')</span>
                                         <div class="arrow-down"></div>
                                     </a>
@@ -847,14 +846,14 @@
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-authentication">@lang('translation.Authentication')</span>
                                         <div class="arrow-down"></div>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="topnav-auth">
                                         <div class="dropdown">
                                             <a class="dropdown-item dropdown-toggle arrow-none" href="#"
-                                                id="topnav-auth-basic" role="button">
+                                                id="topnav-auth-basic" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <span data-key="t-basic">@lang('translation.Basic')</span>
                                                 <div class="arrow-down"></div>
                                             </a>
@@ -889,7 +888,7 @@
                                         </div>
                                         <div class="dropdown">
                                             <a class="dropdown-item dropdown-toggle arrow-none" href="#"
-                                                id="topnav-auth-cover" role="button">
+                                                id="topnav-auth-cover" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <span data-key="t-cover">@lang('translation.Cover')</span>
                                                 <div class="arrow-down"></div>
                                             </a>
@@ -926,14 +925,14 @@
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-error"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-error-pages">@lang('translation.Error_Pages')</span>
                                         <div class="arrow-down"></div>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="topnav-error">
                                         <div class="dropdown">
                                             <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-404"
-                                                role="button">
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <span>404</span>
                                                 <div class="arrow-down"></div>
                                             </a>
@@ -946,7 +945,7 @@
                                         </div>
                                         <div class="dropdown">
                                             <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-500"
-                                                role="button">
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <span>500</span>
                                                 <div class="arrow-down"></div>
                                             </a>
@@ -962,7 +961,7 @@
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-utility"
-                                        role="button">
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span data-key="t-utility">@lang('translation.Utility')</span>
                                         <div class="arrow-down"></div>
                                     </a>
