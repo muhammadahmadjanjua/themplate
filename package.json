@@ -35,6 +35,7 @@
         "apexcharts": "^3.27.1",
         "bootstrap": "^5.1.0",
         "choices.js": "^9.0.1",
+        "composer": "^4.1.0",
         "dragula": "^3.7.3",
         "dropzone": "^5.5.1",
         "feather-icons": "^4.28.0",
