@@ -143,6 +143,7 @@ body {
 
 .page-content {
     padding: calc(#{$header-height} + #{$grid-gutter-width}) calc(#{$grid-gutter-width} / 2) $footer-height calc(#{$grid-gutter-width} / 2);
+    min-height: calc(100vh - 260px);
 }
 
 .header-item {

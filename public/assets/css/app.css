@@ -111,7 +111,7 @@ body:not([data-sidebar-size=sm]) .app-search {
     display: inline-block; } }
 
 .page-content {
-  padding: calc(70px + 20px) calc(20px / 2) 60px calc(20px / 2); }
+  padding: calc(70px + 20px) calc(20px / 2) 60px calc(20px / 2); min-height: calc(100vh - 260px);}
 
 .header-item {
   height: 70px;
@@ -276,11 +276,11 @@ body[data-layout-mode="dark"][data-topbar="light"] .logo-dark {
 .footer {
   bottom: 0;
   padding: 20px calc(20px / 2);
-  position: absolute;
+  position: static;
   left: 0;
   color: #74788d;
   right: 250px;
-  height: 60px;
+  height: auto;
   -webkit-box-shadow: 0 0px 4px rgba(15, 34, 58, 0.12);
           box-shadow: 0 0px 4px rgba(15, 34, 58, 0.12); }
 

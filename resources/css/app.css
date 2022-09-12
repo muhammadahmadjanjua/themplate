@@ -160,6 +160,8 @@ body:not([data-sidebar-size=sm]) .app-search {
 
 .page-content {
     padding: calc(70px + 20px) calc(20px / 2) 60px calc(20px / 2);
+    min-height: calc(100vh - 260px);
+    
 }
 
 .header-item {
@@ -390,11 +392,11 @@ body[data-layout-mode="dark"][data-topbar="light"] .logo-dark {
 .footer {
     bottom: 0;
     padding: 20px calc(20px / 2);
-    position: absolute;
+    position: static;
     right: 0;
     color: #74788d;
     left: 250px;
-    height: 60px;
+    height: auto;
     -webkit-box-shadow: 0 0px 4px rgba(15, 34, 58, 0.12);
     box-shadow: 0 0px 4px rgba(15, 34, 58, 0.12);
 }
